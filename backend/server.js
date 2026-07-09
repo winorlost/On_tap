@@ -4,10 +4,13 @@ const path = require('path');
 const url = require('url');
 const crypto = require('crypto');
 
-// SỬA DÒNG NÀY: Lấy PORT từ môi trường của Render, nếu không có mới dùng 3000
+// SỬA CỔNG PORT CHO RENDER
 const PORT = process.env.PORT || 3000;
 const DB_FILE = path.join(__dirname, 'database.json');
 const UPLOADS_DIR = path.join(__dirname, 'uploads');
+
+// ĐƯỜNG DẪN ĐẾN THƯ MỤC FRONTEND (Đi ngược ra ngoài 1 cấp vì Root Directory đang ở backend)
+const FRONTEND_DIR = path.join(__dirname, '..', 'frontend');
 
 // Simple JSON DB
 let db = {
@@ -204,23 +207,23 @@ const server = http.createServer(async (req, res) => {
     return;
   }
 
-  // Static files
+  // Static files (ĐÃ SỬA ĐỂ ĐỌC ĐÚNG THƯ MỤC FRONTEND KHÔNG BỊ NOT FOUND)
   if (method === 'GET' && !pathname.startsWith('/api')) {
     let filePath;
     if (pathname === '/' || pathname === '/index.html') {
-      filePath = path.join(__dirname, 'public', 'index.html');
+      filePath = path.join(FRONTEND_DIR, 'index.html');
     } else if (pathname === '/admin') {
-      filePath = path.join(__dirname, 'public', 'admin.html');
+      filePath = path.join(FRONTEND_DIR, 'admin.html');
     } else if (pathname.startsWith('/uploads/')) {
       filePath = path.join(__dirname, pathname.replace(/^\//, ''));
     } else {
-      filePath = path.join(__dirname, 'public', pathname);
+      filePath = path.join(FRONTEND_DIR, pathname);
     }
     if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
       sendFile(res, filePath);
       return;
     }
-    filePath = path.join(__dirname, 'public', 'index.html');
+    filePath = path.join(FRONTEND_DIR, 'index.html');
     if (fs.existsSync(filePath)) {
       sendFile(res, filePath);
       return;
