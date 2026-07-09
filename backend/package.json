@@ -1,0 +1,11 @@
+{
+  "name": "web-ontap",
+  "version": "2.0.0",
+  "description": "Hệ thống Web Ôn Tập - Học tập thông minh",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {}
+}

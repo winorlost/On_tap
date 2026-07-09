@@ -1,0 +1,285 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "8140904217b6cac1be5a301f95e417096ba127fba9adcdccf01b1d4cfcf5a786",
+      "role": "admin",
+      "token": "98e4b46cff17b2b9579f06d15cd624756aad339509ec2747a993a640d7e7ff4b",
+      "avatar": "",
+      "created_at": "2026-03-07T06:30:00.000Z"
+    },
+    {
+      "id": 1782894769979,
+      "username": "thang1",
+      "password": "831b228adca34e5afc70df5fd46ce9ed9b6a088fa45d5287d7f3ab0cc4503e33",
+      "role": "user",
+      "token": "",
+      "avatar": "",
+      "created_at": "2026-07-01T08:32:49.978Z"
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "name": "Toán",
+      "name_en": "Math"
+    },
+    {
+      "id": 2,
+      "name": "Văn",
+      "name_en": "Literature"
+    },
+    {
+      "id": 3,
+      "name": "Anh",
+      "name_en": "English"
+    },
+    {
+      "id": 4,
+      "name": "Hóa",
+      "name_en": "Chemistry"
+    },
+    {
+      "id": 5,
+      "name": "Lý",
+      "name_en": "Physics"
+    }
+  ],
+  "theory_lessons": [],
+  "practice_questions": [
+    {
+      "id": 1783411503334,
+      "user_id": 1,
+      "subject_id": 1,
+      "type": "multiple",
+      "question_text": "a",
+      "question_image": "/uploads/images/1783411503262_3h6td3.jpeg",
+      "answer_a": "",
+      "answer_b": "",
+      "answer_c": "",
+      "answer_d": "",
+      "answer_correct": "D",
+      "is_true": true,
+      "sub_question_1": "",
+      "sub_question_2": "",
+      "sub_question_3": "",
+      "sub_question_4": "",
+      "sub_correct_1": false,
+      "sub_correct_2": false,
+      "sub_correct_3": false,
+      "sub_correct_4": false,
+      "shuffle_options": [],
+      "created_at": "2026-07-07T08:05:03.334Z"
+    },
+    {
+      "id": 1783411591817,
+      "user_id": 1,
+      "subject_id": 1,
+      "type": "truefalse",
+      "question_text": "",
+      "question_image": "/uploads/images/1783411591810_k49gsj.jpeg",
+      "answer_a": "",
+      "answer_b": "",
+      "answer_c": "",
+      "answer_d": "",
+      "answer_correct": "A",
+      "is_true": true,
+      "sub_question_1": "a",
+      "sub_question_2": "b",
+      "sub_question_3": "c",
+      "sub_question_4": "d",
+      "sub_correct_1": false,
+      "sub_correct_2": false,
+      "sub_correct_3": false,
+      "sub_correct_4": false,
+      "shuffle_options": [],
+      "created_at": "2026-07-07T08:06:31.817Z"
+    },
+    {
+      "id": 1783413601505,
+      "user_id": 1782894769979,
+      "subject_id": 1,
+      "type": "multiple",
+      "question_text": "a",
+      "question_image": "/uploads/images/1783413601500_fp9z6z.jpeg",
+      "answer_a": "a",
+      "answer_b": "b",
+      "answer_c": "c",
+      "answer_d": "d",
+      "answer_correct": "A",
+      "correct_answer": "",
+      "is_true": true,
+      "sub_question_1": "",
+      "sub_question_2": "",
+      "sub_question_3": "",
+      "sub_question_4": "",
+      "sub_correct_1": false,
+      "sub_correct_2": false,
+      "sub_correct_3": false,
+      "sub_correct_4": false,
+      "shuffle_options": [],
+      "created_at": "2026-07-07T08:40:01.505Z"
+    }
+  ],
+  "scores": [],
+  "music": [
+    {
+      "id": 1782894915442,
+      "user_id": 1782894769978,
+      "title": "Trả Chi Anh",
+      "artist": "Unknown",
+      "file_path": "/uploads/music/1782894915433_akmxmz.mp3",
+      "image": "",
+      "created_at": "2026-07-01T08:35:15.442Z"
+    }
+  ],
+  "calendar": [],
+  "notifications": [],
+  "encouragements": [
+    {
+      "user_id": 1782894769978,
+      "message_up": "Tiếp tục cố gắng",
+      "message_down": "Ngu vcl"
+    },
+    {
+      "user_id": 1782894769979,
+      "message_up": "🔥 Xuất sắc! Cố gắng phát huy!",
+      "message_down": "😤 Học hành kiểu gì vậy? Cố lên!"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1783062450665,
+      "user_id": 1,
+      "login_time": "2026-07-03T07:07:30.665Z",
+      "date": "2026-07-03"
+    },
+    {
+      "id": 1783062833092,
+      "user_id": 1782894769979,
+      "login_time": "2026-07-03T07:13:53.092Z",
+      "date": "2026-07-03"
+    },
+    {
+      "id": 1783063011706,
+      "user_id": 1,
+      "login_time": "2026-07-03T07:16:51.706Z",
+      "date": "2026-07-03"
+    },
+    {
+      "id": 1783066224242,
+      "user_id": 1782894769979,
+      "login_time": "2026-07-03T08:10:24.242Z",
+      "date": "2026-07-03"
+    },
+    {
+      "id": 1783176882150,
+      "user_id": 1,
+      "login_time": "2026-07-04T14:54:42.150Z",
+      "date": "2026-07-04"
+    },
+    {
+      "id": 1783176975051,
+      "user_id": 1782894769979,
+      "login_time": "2026-07-04T14:56:15.051Z",
+      "date": "2026-07-04"
+    },
+    {
+      "id": 1783177098028,
+      "user_id": 1,
+      "login_time": "2026-07-04T14:58:18.028Z",
+      "date": "2026-07-04"
+    },
+    {
+      "id": 1783177110777,
+      "user_id": 1782894769979,
+      "login_time": "2026-07-04T14:58:30.777Z",
+      "date": "2026-07-04"
+    },
+    {
+      "id": 1783177127585,
+      "user_id": 1,
+      "login_time": "2026-07-04T14:58:47.585Z",
+      "date": "2026-07-04"
+    },
+    {
+      "id": 1783178028417,
+      "user_id": 1782894769979,
+      "login_time": "2026-07-04T15:13:48.417Z",
+      "date": "2026-07-04"
+    },
+    {
+      "id": 1783178096338,
+      "user_id": 1,
+      "login_time": "2026-07-04T15:14:56.338Z",
+      "date": "2026-07-04"
+    },
+    {
+      "id": 1783178434458,
+      "user_id": 1782894769979,
+      "login_time": "2026-07-04T15:20:34.458Z",
+      "date": "2026-07-04"
+    },
+    {
+      "id": 1783178475925,
+      "user_id": 1,
+      "login_time": "2026-07-04T15:21:15.925Z",
+      "date": "2026-07-04"
+    },
+    {
+      "id": 1783178571548,
+      "user_id": 1782894769979,
+      "login_time": "2026-07-04T15:22:51.548Z",
+      "date": "2026-07-04"
+    },
+    {
+      "id": 1783178603793,
+      "user_id": 1,
+      "login_time": "2026-07-04T15:23:23.793Z",
+      "date": "2026-07-04"
+    },
+    {
+      "id": 1783411339021,
+      "user_id": 1782894769979,
+      "minutes": 0,
+      "created_at": "2026-07-07T08:02:19.021Z"
+    },
+    {
+      "id": 1783411406630,
+      "user_id": 1782894769979,
+      "minutes": 0,
+      "created_at": "2026-07-07T08:03:26.630Z"
+    },
+    {
+      "id": 1783411417116,
+      "user_id": 1,
+      "minutes": 0,
+      "created_at": "2026-07-07T08:03:37.116Z"
+    },
+    {
+      "id": 1783411673032,
+      "user_id": 1782894769979,
+      "minutes": 0,
+      "created_at": "2026-07-07T08:07:53.032Z"
+    },
+    {
+      "id": 1783413494678,
+      "user_id": 1782894769979,
+      "minutes": 0,
+      "created_at": "2026-07-07T08:38:14.678Z"
+    },
+    {
+      "id": 1783413647563,
+      "user_id": 1,
+      "minutes": 0,
+      "created_at": "2026-07-07T08:40:47.563Z"
+    },
+    {
+      "id": 1783431023333,
+      "user_id": 1,
+      "minutes": 0,
+      "created_at": "2026-07-07T13:30:23.333Z"
+    }
+  ]
+}
